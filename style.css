@@ -342,9 +342,9 @@ footer {
 
 .ocidcard{
   margin-top: 20px;
+  margin-left:15px;
   width: 500px;
   height: 220px;
-  margin: 0 auto;
   line-height: 30px;
   border:solid 1px #c0f0df;
   border-radius: 20px;
