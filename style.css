@@ -365,6 +365,10 @@ footer {
   border-radius: 20px;
 }
 
+.ocinfo h2{
+ text-align:center;
+}
+
 .gallery-container0 {
       width: 800px;
       display: grid;
