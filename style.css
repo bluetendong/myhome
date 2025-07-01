@@ -348,6 +348,7 @@ footer {
   line-height: 20px;
   border:solid 1px #c0f0df;
   border-radius: 20px;
+    float:left;
 }
 
 .ocpic img{
