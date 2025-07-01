@@ -93,6 +93,17 @@ body {
    color: #909399;
 }
 
+/* 인덱스 메인 페이지 내용 */
+
+.indextext{
+
+    width:550px;
+    height:590px;
+    border:solid 1px #c0f0df;
+    border-radius: 15px;
+
+}
+
 /* 푸터 */
 footer {
   width: 500px;
