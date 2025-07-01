@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'exqt';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/exqt.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'exqt';
+  background-image: url("img/backimg.jpg");
+  
+}
+
+/* 헤더 */
+
+/* 메인 콘텐츠 */
+.home {
+  width: 1000px;
+  margin:0 auto;
+}
+
+.home-box {
+  display: flex;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+/* 왼쪽 메뉴 */
+.menu {
+  margin-left: 10px;
+  width: 90px;
+  padding: 2px;
+  box-sizing: border-box;
+  float: left;
+  margin-top: 10px;
+}
+
+.menubutton {
+  background-color: #ffffff;
+  border: 1px solid #c0f0df;
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-family: 'exqt';
+  border-radius: 10px;
+  margin-bottom: 3px;
+}
+
+.menubutton a{
+    text-decoration: none;
+    color: #909399;
+}
+
+.menu :hover{
+  background-color: #c0f0df;
+  border: 1px solid #c0f0df;
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-family: 'exqt';
+  border-radius: 10px;
+  margin-bottom: 3px;
+}
+
+/* 오른쪽 콘텐츠 */
+.home-box-right {
+  padding: 15px;
+  min-height: 300px;
+}
+
+.right-post {
+  margin-left:140px;
+    width: 850px;
+  font-size: 14px;
+  color: #333;
+  border: solid 1px #c0f0df;
+  border-radius: 10px;
+  height: 600px;
+  background-color: #fff;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 10px;  /* 세로축 스크롤바 폭 너비 */
+    height: 20px;  /* 가로축 스크롤바 폭 너비 */
+}
+
+.right-post p{
+  text-align: center;
+   padding: 10px;
+   color: #909399;
+}
+
+/* 푸터 */
+footer {
+  width: 500px;
+  height: 100px;
+  background-color: #222;
+  margin-top: 30px;
+}
+
+.slideshow-container{
+   width: 300px;
+
+}
+
+.slide{
+    width: 300px;
+}
+
+.linkbutton{
+  margin-left: 10px;
+  width: 70px;
+  height: 15px;
+  border: solid 1px #c0f0df;
+  border-radius: 10px;
+  text-align: center;
+  float: left;
+  background-color: #e0fff9;
+}
+
+.buttons{
+  margin: 0 auto;
+  width: 300px;
+}
+.linkbutton a{
+  font-size: 10px;
+    text-decoration: none;
+    color: #909399;
+    
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1055.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+.id-card {
+  margin: 0 auto;
+  width: 550px;
+  padding: 5px;
+  color: #6a6a6a;
+  overflow: hidden;
+}
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid #fff0ff;
+  box-shadow: 0 0 15px #ffd6f6;
+  margin-bottom: 15px;
+  float: left;
+  margin-top: 30px;
+}
+
+.idol-name {
+  margin-left: 155px;
+  font-size: 16px;
+  color: #8193e3;
+  text-shadow: 0 0 5px #9c9c9c;
+}
+
+.info {
+  width: 380px;
+  height: 130px;
+  border: solid #bebebe;
+  border-radius: 15px;
+  margin-left: 150px;
+  font-size: 14px;
+}
+
+.faivorit{
+  width: 510px;
+  height: 150px;
+  border: solid #bebebe;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.faivorit a{
+  text-decoration: none;
+      color: #909399;
+}
+
+.line{
+  width: 110px;
+  height: 20px;
+  background-color: #defff4;
+  margin-top: 5px;
+  text-align: center;
+  line-height: 20px;
+
+}
+
+.line2{
+  height: 20px;
+  font-size: 12px;
+  margin-top: 5px;
+  line-height: 20px;
+}
+
+.diary{
+    width:800px;
+    height: 550px;
+    border: solid 1px #c0f0df;;
+    margin: 26px;
+    border-radius:15px;
+}
+
+.diarylist{
+  width: 400px;
+  height: 40px;
+  border-bottom: solid 1px #c0f0df;
+  line-height: 40px;
+  margin: 10px;
+}
+
+.diarylist p{
+  text-align: left;
+  
+
+}
+
+.diarylist a{
+  text-decoration: none;
+}
+
+/* ─────────────── 📦 갤러리 영역 ─────────────── */
+.gallery-container {
+  padding: 10px;
+  text-align: center;
+}
+
+.gallery-title {
+   font-size: 24px;
+  margin-bottom: 6px;
+  
+}
+
+.gallery-columns {
+  display: flex;
+  gap: 10px; 
+  justify-content: center;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+.gallery-credit {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.gallery-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  transition: transform 0.3s ease; 
+}
+
+.gallery-item img:hover {
+  transform: scale(1.03);
+}
+
+.full-gallery-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0;         
+  object-fit: contain;      
+  margin-bottom: 0.75rem;  
+}
+
+.gallery-detail {
+  text-align: center;
+}
+
+.ocpp{
+   width: 700px;
+   margin: 0 auto;
+   margin-top: 20px;
+
+}
+
+.dusang{
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.dusang img{
+    width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* oc 프로필 */
+
+.ocidcard{
+  margin-top: 20px;
+  width: 500px;
+  height: 220px;
+  margin: 0 auto;
+  line-height: 30px;
+  border:solid 1px #c0f0df;
+  border-radius: 20px;
+}
+
+.ocpic img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.ocpic{
+  float: left;
+  margin: 10px;
+  border: solid 1px #c0f0df;
+  border-radius: 20px;
+}
+
+.gallery-container0 {
+      width: 800px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+      margin: 10px;
+    }
+
+    .gallery-item0 {
+      width: 150px;
+      height: 170px;
+      display: block;
+      text-decoration: none;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin: 10px;
+    }
+
+    .gallery-item0:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    .gallery-item0 img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 20px;
+      display: block;
+
+    }
+
+    @media (max-width: 900px) {
+      .gallery-container0 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .gallery-container0 {
+        grid-template-columns: 1fr;
+      }
+    }
