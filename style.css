@@ -369,12 +369,20 @@ footer {
  text-align:center;
 }
 
+.junsinimg{
+ width:260px;
+    height:600px;
+    background-color:#fff;
+}
+
 .ocbox {
     width: 500px;
     height: 300px;
       border:solid 1px #c0f0df;
   border-radius: 20px;
     margin-top:120px;
+    padding:10px;
+    text-align:center;
 }
 
 .gallery-container0 {
