@@ -334,6 +334,10 @@ footer {
   border-radius: 10px;
 }
 
+.dusang:hover{
+ opecity:0.7;
+}
+
 /* oc 프로필 */
 
 .ocidcard{
