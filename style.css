@@ -336,6 +336,7 @@ footer {
 
 .dusang img:hover{
  opacity:0.7;
+    transition-duration: 1s
 }
 
 /* oc 프로필 */
