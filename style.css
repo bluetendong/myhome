@@ -98,10 +98,20 @@ body {
 .indextext{
 
     width:550px;
-    height:590px;
+    height:560px;
     border:solid 1px #c0f0df;
     border-radius: 15px;
+    float:left;
+    margin:10px;
 
+}
+
+.baners{
+    width:250px;
+    height:560px;
+    border:solid 1px #c0f0df;
+    border-radius: 15px;
+    margin:10px;
 }
 
 /* 푸터 */
