@@ -342,11 +342,10 @@ footer {
 /* oc 프로필 */
 
 .ocidcard{
-  margin-top: 20px;
-  margin-left:15px;
+  margin: 20px;
   width: 500px;
   height: 220px;
-  line-height: 30px;
+  line-height: 20px;
   border:solid 1px #c0f0df;
   border-radius: 20px;
 }
@@ -367,6 +366,13 @@ footer {
 
 .ocinfo h2{
  text-align:center;
+}
+
+.ocbox {
+    width: 500px;
+    height: 300px;
+      border:solid 1px #c0f0df;
+  border-radius: 20px;
 }
 
 .gallery-container0 {
